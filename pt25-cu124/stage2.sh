@@ -139,7 +139,7 @@ cp -rf "$workdir"/attachments/* \
     "$workdir"/Comfy3D_WinPortable/
 
 # Clean up
-rm -v "$workdir"/Comfy3D_WinPortable/*.log
+# rm -v "$workdir"/Comfy3D_WinPortable/*.log
 
 cd "$workdir"/Comfy3D_WinPortable/ComfyUI/custom_nodes
 rm ./was-node-suite-comfyui/was_suite_config.json
